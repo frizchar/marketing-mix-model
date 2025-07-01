@@ -6,10 +6,10 @@ In our implementation we utilize the [robyn](https://pypi.org/project/robynpy/) 
 
 ### Input file & Variables:
 Input file ```marketing_data.csv``` includes the following variables:
-- $${\color{blue}sales}$$ (_target variable_)
-- $${\color{green} TV\\_impressions, \space Digital\\_clicks,  \space Radio\\_GRPs}$$ (_paid media variables_)
-- $${\color{green} Newsletter\\_sends, \space Social\\_media\\_posts}$$ (_organic variables_)
-- $${\color{green} Competitor\\_sales, \space Holiday}$$ (_context variables_)
+- $${ \color{blue} \mathrm{sales} }$$ (_target variable_)
+- $${ \color{green} \mathrm{TV\\_impressions, \space Digital\\_clicks,  \space Radio\\_GRPs} }$$ (_paid media variables_)
+- $${ \color{green} \mathrm{Newsletter\\_sends, \space Social\\_media\\_posts} }$$ (_organic variables_)
+- $${ \color{green} \mathrm{Competitor\\_sales, \space Holiday} }$$ (_context variables_)
 
 ### Usage
 - install package __robyn__ with ```pip install robynpy```
