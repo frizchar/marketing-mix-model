@@ -1,4 +1,4 @@
-# marketing-mix-model
+# Marketing Mix Model
 ### Overview
 __Marketing Mix Modeling__ (_MMM_) is a forecasting technique that evaluates how different marketing strategies affect product sales. It uses statistical methods like multivariate regression on sales and marketing time-series data. MMM helps optimize advertising and promotional efforts to maximize sales, revenue, or profit, improving return on investment through data-driven decisions.
 
