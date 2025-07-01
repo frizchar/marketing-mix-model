@@ -4,10 +4,10 @@ __Marketing Mix Modeling__ (_MMM_) is a forecasting technique that evaluates how
 
 ### Input file & Variables:
 Input file ```marketing_data.csv``` includes the following variables:
-- Target variable := _sales_
-- Paid media variables := _TV_impressions_, _Digital_clicks_, _Radio_GRPs_
-- Organic variables := _Newsletter_sends_, _Social_media_posts_ (without spend)
-- Context variables := _Competitor_sales_, _Holiday_
+- sales (_target variable_)
+- TV_impressions, Digital_clicks, Radio_GRPs (_paid media variables_)
+- Newsletter_sends, Social_media_posts (_organic variables_)
+- Competitor_sales, Holiday (_context variables_)
 
 ### Dependencies
 Python interpreter version used for this project: **3.9.4**
