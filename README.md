@@ -11,5 +11,8 @@ Input file ```marketing_data.csv``` includes the following variables:
 - Newsletter_sends, Social_media_posts (_organic variables_)
 - Competitor_sales, Holiday (_context variables_)
 
+### Usage
+Install robyn package with ```pip install robynpy```.
+
 ### Dependencies
 Python interpreter version used for this project: **3.9.4**
