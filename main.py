@@ -3,7 +3,9 @@
 from robynpy import Robyn
 import pandas as pd
 
-# Load your marketing dataset (with date, sales/KPI, media spend/impressions, and other variables)
+# Load your marketing dataset with the following variables:
+# sales / TV_impressions / Digital_clicks / Radio_GRPs / Newsletter_sends / Social_media_posts / Competitor_sales / Holiday
+
 df = pd.read_csv('your_marketing_data.csv')
 
 # Initialize Robyn model
