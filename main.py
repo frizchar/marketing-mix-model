@@ -12,10 +12,10 @@ df = pd.read_csv('your_marketing_data.csv')
 robyn = Robyn(data=df)
 
 # Define your variables:
-# - Dependent variable (e.g., sales)
-# - Paid media variables (e.g., TV impressions, digital clicks)
-# - Organic variables (e.g., newsletters, social media posts without spend)
-# - Context variables (e.g., seasonality, holidays, competitor activity)
+# - Dependent variable := sales
+# - Paid media variables := TV_impressions, Digital_clicks, Radio_GRPs
+# - Organic variables := Newsletter_sends, Social_media_posts (without spend)
+# - Context variables := Competitor_sales, Holiday
 
 robyn.set_target_variable('sales')
 robyn.set_paid_media_vars(['TV_impressions', 'Digital_clicks', 'Radio_GRPs'])
