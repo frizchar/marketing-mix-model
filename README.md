@@ -3,7 +3,7 @@
 __Marketing Mix Modeling__ (_MMM_) is a forecasting technique that evaluates how different marketing strategies affect product sales. It uses statistical methods like multivariate regression on sales and marketing time-series data. MMM helps optimize advertising and promotional efforts to maximize sales, revenue, or profit, improving return on investment through data-driven decisions.
 
 ### Input file & Variables:
-In our implementation we include the following variables in the input file ```marketing_data.csv```:
+Input file ```marketing_data.csv``` includes the following variables:
 - Target variable := _sales_
 - Paid media variables := _TV_impressions_, _Digital_clicks_, _Radio_GRPs_
 - Organic variables := _Newsletter_sends_, _Social_media_posts_ (without spend)
