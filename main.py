@@ -1,4 +1,4 @@
-# Install Robyn package with !pip install robynpy
+# Install Robyn package with "pip install robynpy"
 
 from robynpy import Robyn
 import pandas as pd
