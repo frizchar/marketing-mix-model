@@ -12,7 +12,8 @@ Input file ```marketing_data.csv``` includes the following variables:
 - Competitor_sales, Holiday (_context variables_)
 
 ### Usage
-Install the __robyn__ package with ```pip install robynpy```.
+- install the __robyn__ package with ```pip install robynpy```
+- input file ```marketing_data.csv``` needs to be saved in the same folder with file ```main.py```
 
 ### Dependencies
 Python interpreter version used for this project: **3.9.4**
