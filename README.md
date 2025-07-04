@@ -7,9 +7,12 @@ In our implementation we utilize the [robyn](https://pypi.org/project/robynpy/) 
 ### Input file & Variables:
 Input file ```marketing_data.csv``` includes the following variables:
 - $${ \color{blue} \mathrm{sales} }$$ (_target variable_)
-- $${ \color{green} \mathrm{TV\\_impressions, \space Digital\\_clicks,  \space Radio\\_GRPs} }$$ (_predictor variables_; $${ \color{purple} paid \space media \space variables }$$)
+- $${ \color{green} \mathrm{TV\\_impressions^*, \space Digital\\_clicks,  \space Radio\\_GRPs^{**}} }$$ (_predictor variables_; $${ \color{purple} paid \space media \space variables }$$)
 - $${ \color{green} \mathrm{Newsletter\\_sends, \space Social\\_media\\_posts} }$$ (_predictor variables_; $${ \color{purple} organic \space variables }$$)
 - $${ \color{green} \mathrm{Competitor\\_sales, \space Holiday} }$$ (_predictor variables_; $${ \color{purple} context \space variables }$$)
+
+\* number of times a television advertisement is displayed or seen
+** (Gross Rating Points) measure the total audience reach and frequency of a radio advertisement
 
 ### Usage
 - install package __robyn__ with ```pip install robynpy```
