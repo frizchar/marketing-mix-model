@@ -12,7 +12,7 @@ Input file ```marketing_data.csv``` includes the following variables:
 - $${ \color{green} \mathrm{Competitor\\_sales, \space Holiday} }$$ (_predictor variables_; $${ \color{purple} context \space variables }$$)
 
 \* _number of times a television advertisement is displayed or seen_  
-** _(Gross Rating Points) measure the total audience reach and frequency of a radio advertisement_
+** _(Gross Rating Points) measures the total audience reach and frequency of a radio advertisement_
 
 ### Usage
 - install package __robyn__ with ```pip install robynpy```
