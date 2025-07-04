@@ -11,8 +11,8 @@ Input file ```marketing_data.csv``` includes the following variables:
 - $${ \color{green} \mathrm{Newsletter\\_sends, \space Social\\_media\\_posts} }$$ (_predictor variables_; $${ \color{purple} organic \space variables }$$)
 - $${ \color{green} \mathrm{Competitor\\_sales, \space Holiday} }$$ (_predictor variables_; $${ \color{purple} context \space variables }$$)
 
-\* _TV impressions; number of times a television advertisement is displayed or seen_  
-** _Radio Gross Rating Points; measures the total audience reach and frequency of a radio advertisement_
+\* _TV impressions := number of times a television advertisement is displayed or seen_  
+** _Radio Gross Rating Points := measures the total audience reach and frequency of a radio advertisement_
 
 ### Usage
 - install package __robyn__ with ```pip install robynpy```
